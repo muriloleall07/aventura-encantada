@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Afacad+Flux:wght@100..1000&family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Cinzel:wght@400..900&family=Cookie&family=Crushed&family=Fruktur:ital@0;1&family=Graduate&family=Great+Vibes&family=Lobster&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Pacifico&family=Pirata+One&family=Press+Start+2P&family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>O Encontro Encantado</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+          <img src="img/passo-0.jpg" alt="">
+            <p>Após uma noite de sonhos misteriosos, você acorda e encontra uma carta dourada sobre sua mesa. A carta, escrita com uma caligrafia suave, fala sobre uma jornada mágica em busca do Coração Encantado, uma joia que pode revelar o verdadeiro amor. O mapa aponta para duas trilhas, uma na floresta das sombras e outra no jardim perdido. Você decide seguir o mapa, sem saber que sua vida está prestes a mudar para sempre.</p>
+            <button class="btn-proximo" data-proximo="1">Ir para a Floresta das Sombras</button>
+            <button class="btn-proximo" data-proximo="2">Seguir para o Jardim Perdido</button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>Na Floresta das Sombras, uma névoa espessa envolve o caminho. Você encontra uma figura misteriosa chamada Aris, que se apresenta como o Guardião das Sombras. Ele revela que apenas quem tem coragem suficiente pode continuar na jornada. Para provar seu valor, você precisa decifrar um enigma mágico.</p>
+            <button class="btn-proximo" data-proximo="3">Aceitar o enigma de Aris</button>
+            <button class="btn-proximo" data-proximo="4">Tentar seguir sem resolver o enigma</button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>Ao chegar no Jardim Perdido, você se depara com uma paisagem encantadora, mas também cheia de mistérios. O jardim é guardado por uma mulher chamada Seraphine, uma entidade misteriosa que vive entre o mundo real e o mágico. Ela diz que o Coração Encantado está escondido em algum lugar do jardim, mas somente aqueles que podem ver com o coração poderão encontrar o caminho certo.</p>
+            <button class="btn-proximo" data-proximo="5">Tentar ver com o coração</button>
+            <button class="btn-proximo" data-proximo="6">Procurar pistas no jardim</button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>Aris desafia você com o enigma: "O que não pode ser tocado, mas pode tocar seu coração? O que brilha mais intensamente no escuro, mas não tem forma?". Após um momento de reflexão, você responde: "O amor!". Aris sorri e, com um gesto de mão, abre uma passagem secreta na floresta, permitindo que você continue sua jornada.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir pela passagem secreta</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>Você decide seguir sem resolver o enigma e, infelizmente, a floresta começa a se fechar ao seu redor. As árvores parecem se mover e você se perde. Desesperado, chama por Aris, que aparece e diz que sem coragem para enfrentar os desafios, a jornada será impossível. Mas ele decide lhe dar uma segunda chance, e você volta ao início do caminho.</p>
+            <button class="btn-proximo" data-proximo="3">Tentar novamente o enigma</button>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Você fecha os olhos e tenta olhar com o coração. De repente, uma luz suave brilha entre as árvores, revelando um caminho oculto no jardim. Você segue essa luz até encontrar uma pequena fonte de água cristalina, onde o Coração Encantado repousa sobre uma pedra dourada. Seraphine aparece ao seu lado, sorrindo. "Você encontrou o que muitos não podem ver", ela diz.</p>
+            <button class="btn-proximo" data-proximo="7">Aceitar o Coração Encantado</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Você decide procurar mais pistas no jardim. Entre as flores e os arbustos, você encontra um espelho antigo. Quando olha para ele, vê refletido o rosto de uma pessoa que você nunca conheceu, mas que sente ser importante. O espelho então quebra, e você descobre uma pista mágica que o guia para um lugar secreto dentro do jardim, onde o Coração Encantado está escondido.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o lugar secreto</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Com o Coração Encantado em suas mãos, você percebe que ele não é apenas uma joia, mas sim um símbolo de um amor profundo e eterno. Aris aparece (se você veio pela floresta) ou Seraphine (se você veio pelo jardim) e revela que o Coração Encantado não é apenas uma busca física, mas também emocional. O verdadeiro amor se revela quando o coração está aberto para o outro, e você se dá conta de que encontrou mais do que apenas um tesouro.</p>
+            <button class="btn-proximo" data-proximo="8">Explorar o amor verdadeiro</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Quando você está prestes a ir embora, o Coração Encantado brilha e revela duas possibilidades. Se você escolher seguir seu coração, um amor eterno e mágico será despertado. Caso opte por se distanciar, o Coração se manterá seguro, aguardando a próxima pessoa digna de encontrá-lo. Você sente que esta jornada não termina aqui, mas é apenas o começo de uma vida cheia de amor e descobertas.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir para o futuro com o amor</button>
+            <button class="btn-proximo" data-proximo="10">Deixar o Coração Encantado e seguir sozinho</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Você decide seguir para o futuro com o amor ao seu lado. O Coração Encantado brilha intensamente e, ao seu lado, surge uma pessoa que você sente ser o verdadeiro amor da sua vida. Juntos, vocês começam uma nova jornada, cheia de magia, paixão e conexão profunda.</p>
+            <button class="btn-proximo" data-proximo="11">Viver o amor eterno</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Você decide seguir seu caminho sozinho, mas sente uma paz interior. O Coração Encantado se fecha suavemente, aguardando o momento certo para abrir novamente. Seu coração está mais forte, mais sábio e mais preparado para o que está por vir. A verdadeira jornada do amor, você descobre, é uma viagem que nunca termina.</p>
+            <button class="btn-proximo" data-proximo="11">Seguir novos caminhos</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/passofinal.jpg" alt="">
+            <p>Com ou sem o Coração Encantado, sua jornada está apenas começando. O amor verdadeiro, você percebe, não está em um tesouro, mas na maneira como você escolhe viver e abrir seu coração para o mundo.</p>
+        </div>
+
+
+
+    </main>
+    <script src="script.js"></script>  
+</body>
+</html>
